@@ -1,0 +1,176 @@
+/*App.css contains styling for semantic html elements and media query styling*/
+
+:root {
+	--orange: #ff8a00;
+	--light-orange: #ffbb7a;
+	--blue: #0d98ba;
+	--purple: #9b30ff;
+	--green: #3CB371;
+}
+html,
+body,
+#root {
+	height: 100%;
+}
+input {
+	border: none;
+}
+input:focus {
+	outline: none; /* Remove default focus outline */
+	border-color: transparent; /* Set border color to transparent */
+	box-shadow: none; /* Remove box shadow */
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.loginPage {
+		background-image: url("./assets/mobilebg.svg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		color: white;
+	}
+	.signUpHero {
+		display: none;
+	}
+
+	.Navbar {
+		background-color: white;
+	}
+	.react-calendar {
+		width: 300px;
+	}
+	.upcomingEvents {
+		margin-top: 30px;
+	}
+	.homePage {
+		background-image: url("./assets/mobile-bg-flipped.svg");
+		margin-top: 90px;
+	}
+	.ring{
+		width: 100%;
+	}
+	.ring h2{
+		display: none;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.loginPage {
+		background-image: url("./assets/mobilebg.svg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		color: white;
+	}
+	.signUpHero {
+		display: none;
+	}
+	.Navbar {
+		background-color: white;
+	}
+	.react-calendar {
+		width: 300px;
+	}
+	.upcomingEvents {
+		margin-top: 30px;
+	}
+	.homePage {
+		background-image: url("./assets/mobile-bg-flipped.svg");
+		margin-top: 90px;
+	}
+	.ring{
+		width: 100%;
+	}
+	.ring h2{
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.loginPage {
+		background-image: url("./assets/mobilebg.svg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		color: white;
+	}
+	.signUpHero {
+		display: none;
+	}
+	.Navbar {
+		background-color: white;
+	}
+	.upcomingEvents {
+		margin-top: 0;
+	}
+	.homePage {
+		height: 100%;
+		margin-top: 0;
+	}
+	.ringButtons{
+		display: none;
+	}
+	.ring{
+		width: 43%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.loginPage {
+		background-image: url("./assets/desktopbg.svg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		color: black;
+	}
+	.upcomingEvents {
+		margin-top: 0;
+	}
+	.homePage {
+		height: 100%;
+		margin-top: 0;
+	}
+	.Navbar {
+		background-color: white;
+	}
+	.ringButtons{
+		display: none;
+	}
+	.ring{
+		width: 43%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.loginPage {
+		background-image: url("./assets/desktopbg.svg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		color: black;
+	}
+	.upcomingEvents {
+		margin-top: 0;
+	}
+	.homePage {
+		height: 100%;
+		margin-top: 0;
+	}
+	.Navbar {
+		background-color: white;
+	}
+	.ringButtons{
+		display: none;
+	}
+	.ring{
+		width: 43%;
+	}
+}
+
+
